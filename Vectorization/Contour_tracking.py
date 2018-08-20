@@ -1,4 +1,13 @@
 
+"""
+Image Data Analysis Using Numpy & OpenCV
+author: Mohammed Innat
+email:  innat1994@gmail.com
+website: https://iphton.github.io/iphton.github.io/
+Please feel free to use and modify this, but keep the above information. Thanks!
+"""
+
+
 '''
 We can use a contour tracing algorithm from Scikit-Image to extract the
 paths around the object. This controls how accurately the path follows the
