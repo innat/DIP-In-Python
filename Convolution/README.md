@@ -16,14 +16,14 @@ An image **kernel** or **filter** is a small matrix used to apply effects like t
 
 Now, let’s take the filter to the top left corner. As the filter is sliding, or **convolving**, around the input image, it is multiplying the values in the filter with the original pixel values of the image (aka computing element wise multiplications). These multiplications are all summed up. So now we have a single number. Remember, this number is just representative of when the filter is at the top left of the image. Now, we repeat this process for every location on the input volume. Next step would be moving the filter to the right by **stride** or **step** 1 unit, then right again by **stride** 1, and so on. Every unique location on the input volume produces a number. We can also choose stride or the step size 2 or more, but we have to carefull wheter it will fit or not on the input image. 
 
-<img src="img/convoving.gif", width = 200, height=200>
+![convoving](https://user-images.githubusercontent.com/17668390/44360200-f4673e00-a4db-11e8-9422-f39e0693ba05.gif)
 
-After sliding the filter over all the locations, we will find out that, what we’re left with is a 30 x 30 x 1 array of numbers, which we call an **activation map** or **feature map**. The reason we get a 30 x 30 array is that there are 900 different locations that a 3 x 3 filter can fit on a 32 x 32 input image. These 900 numbers are mapped to a 30 x 30 array. We can calculate the convoled image by following:
+After sliding the filter over all the locations, we will find out that, what we’re left with is a 30 x 30 x 1 array of numbers, which we call an **activation map** or **feature map**. The reason we get a 30 x 30 array is that there are 900 different locations that a 3 x 3 filter can fit on a 32 x 32 input image. These 900 numbers are mapped to a 30 x 30 array. 
 
 Let's say we've a following $3x3$ filter, convolving on a $5x5$ matri and according to the equation we should get a $3x3$ matrix, technically called **activation map** or **feature map**.
 
 let's take a look visuallly, 
-<img src="img/conv_gif.gif", width = 200, height=200>
+![conv_gif](https://user-images.githubusercontent.com/17668390/44360222-05b04a80-a4dc-11e8-8c57-48b7d2c96fd2.gif)
 
 Moreover, we practically use more filters instead of one. Then our output volume would be `28 x 28 x n` (where n is the number of **activation map**). By using more filters, we are able to preserve the spatial dimensions better. 
 
