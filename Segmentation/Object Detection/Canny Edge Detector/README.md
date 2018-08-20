@@ -3,15 +3,21 @@ Canny Edge Detectoin
 
 This repository contains an **educational** implementation of the Canny Edge Detector in Python 3x.
 
-The algorithm was splitted in it's 5 essential parts.
+A multi-stage edge detection operation capable of detecting wide range of edges in images. Now, the Process of Canny edge detection algorithm can be broken down to 5 different steps:
+
+1. Apply Gaussian Filter
+2. Find the intensity gradients
+3. Apply non-maximum suppression 
+4. Apply double threshold
+5. Track edge by hysteresis.
 
 
-Usage
+**Usage**
 -----
+A demo pic is provided, namely `r.jpg`. Download this repo. Operate CMD on that directory and run following command.
 
-> **Requirements:**
-> You need to have [Python 2.7](https://www.python.org/), [Numpy](http://www.numpy.org/), [SciPy](https://www.scipy.org/) and the [Matplotlib](http://matplotlib.org/) installed.
-> You can also use [Python Anaconda](https://www.continuum.io/downloads) which already includes all those libraries.
+`python detector.py r.jpg 1.4 20 40`
 
-- To generate the Edge Image of ``lena.jpg``, call `python detector.py lena.jpg 1.4 20 40`
-- For general usage, call ``python detector.py -h``
+**Expected Output:**
+
+![canny](https://user-images.githubusercontent.com/17668390/44365545-fb964800-a4eb-11e8-8e23-81f49ef517fe.png)
