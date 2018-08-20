@@ -1,4 +1,4 @@
-## mage Data Analysis Using Python - Part 2
+## Image Data Analysis Using Python - Part 2
 
 [Part 1](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/)
 
