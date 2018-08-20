@@ -15,7 +15,6 @@ And also fllowing, in case of you're interested too.
 - [2](https://arxiv.org/abs/1703.00395)
 - [1](https://www.irisa.fr/temics/demos/visualization_ae/visualizationAE.htm)
 
----
-output:
+**output:**
 
-![out_auto](https://user-images.githubusercontent.com/17668390/44370248-3653ac80-a4fb-11e8-8174-f9e9a7e453b1.JPG
+![out_auto](https://user-images.githubusercontent.com/17668390/44370248-3653ac80-a4fb-11e8-8174-f9e9a7e453b1.JPG)
