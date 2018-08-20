@@ -4,7 +4,7 @@
 [Part 1](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/)
 
 # Convolution <a class="anchor" id="4-bullet"></a>
----
+
 
 We've discussed briefly in previous [article](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/) that, when a computer sees an image, it sees an array of pixel values. Now, Depending on the resolution and size of the image, it will see a 32 x 32 x 3 array of numbers where the 3 refers to RGB values or channels. Just to drive home the point, let's say we have a color image in PNG form and its size is 480 x 480. The representative array will be 480 x 480 x 3. Each of these numbers is given a value from 0 to 255 which describes the pixel intensity at that point. 
 
@@ -20,39 +20,7 @@ Now, let’s take the filter to the top left corner. As the filter is sliding, o
 
 After sliding the filter over all the locations, we will find out that, what we’re left with is a 30 x 30 x 1 array of numbers, which we call an **activation map** or **feature map**. The reason we get a 30 x 30 array is that there are 900 different locations that a 3 x 3 filter can fit on a 32 x 32 input image. These 900 numbers are mapped to a 30 x 30 array. We can calculate the convoled image by following:
 
-\begin{align}
-Convolved: \frac{N - F}{S} + 1
-\end{align}
-
-where, $N$ and $F$ represent Input image size and kernel size respectively and $S$ represent stride or step size. So, in this case the output would be
-
-\begin{align}
-\frac{32 - 3}{1} + 1 &= 30
-\end{align}
-
 Let's say we've a following $3x3$ filter, convolving on a $5x5$ matri and according to the equation we should get a $3x3$ matrix, technically called **activation map** or **feature map**.
-
-$$
-\left(\begin{array}{cc} 
-3 & 3 & 2 & 1 & 0\\ 
-0 & 0 & 1 & 3 & 1\\
-3 & 1 & 2 & 2 & 3\\
-2 & 0 & 0 & 2 & 2\\
-2 & 0 & 0 & 0 & 1
-\end{array}\right)
-*
-\left(\begin{array}{cc} 
-0 & 1 & 2\\ 
-2 & 2 & 0\\
-0 & 1 & 2
-\end{array}\right)
-=
-\left(\begin{array}{cc} 
-12 & 12 & 17\\ 
-10 & 17 & 19\\
-9 & 6 & 14
-\end{array}\right)
-$$ 
 
 let's take a look visuallly, 
 <img src="img/conv_gif.gif", width = 200, height=200>
