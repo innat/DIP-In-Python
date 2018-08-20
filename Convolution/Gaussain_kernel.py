@@ -1,4 +1,13 @@
 
+"""
+Image Data Analysis Using Numpy & OpenCV
+author: Mohammed Innat
+email:  innat1994@gmail.com
+website: https://iphton.github.io/iphton.github.io/
+Please feel free to use and modify this, but keep the above information. Thanks!
+"""
+
+
 # importing necessary packages
 from skimage import color
 from skimage import exposure
