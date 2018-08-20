@@ -3,7 +3,7 @@
 [Part 1](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/)
 
 ## Intensity Transformation
----
+
 #### Image Negative <a class="anchor" id="1-bullet"></a>
 
 The transformation function has been given below
@@ -20,7 +20,7 @@ In this case the following transition has been done.
 
 So each value is subtracted by 255 and the result image has been shown below. So what happens is that, the lighter pixels become dark and the darker picture becomes light. And it results in image negative.
 
----
+
 
 # Log transformation <a class="anchor" id="2-bullet"></a>
 
@@ -34,7 +34,7 @@ During log transformation, the dark pixels in an image are expanded as compare t
 
 The value of c in the log transform adjust the kind of enhancement you are looking for.
 
----
+
 
 # Gamma Correction <a class="anchor" id="3-bullet"></a>
  
