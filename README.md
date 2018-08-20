@@ -19,12 +19,12 @@ Combination of these three color will posses tends to the highest value among th
 
 ### Table of Contents : Part 1
 
-- Importing images and observe it’s properties
-- Splitting the layers
-- Greyscale
-- Using Logical Operator on pixel values
-- Masking using Logical Operator
-- Satellite Image Data Analysis
+- [Importing images and observe it’s properties](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Scripts)
+- [Splitting the layers](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/blob/gh-pages/Scripts/Splitting%20Layers.py)
+- [Greyscale](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/blob/gh-pages/Scripts/Greyscale_Image.py)
+- [Using Logical Operator on pixel values](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/blob/gh-pages/Scripts/logical_operator_image_processing.py)
+- [Masking using Logical Operator](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/blob/gh-pages/Scripts/Masking_Imaging.py)
+- [Satellite Image Data Analysis](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/blob/gh-pages/Scripts/satellite_img_processing.py)
 
 ---
 
@@ -38,30 +38,29 @@ Following contents are the reflection of my completed academic image processing 
 
 ### Table of Contents : Part 2
 
-- Intensity Transformation
-    - Basic Function
+- [Intensity Transformation](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Basic%20Intensity%20Transformation)
         - Image Negative
         - Log Transformation
         - Gamma Correction
 
-- Convolution
+- [Convolution](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Convolution)
     - Convolving Procedure 
     - Implementation and Use Cases
 
 - Segmentation
     - Thresholding
-        - Ostu's Method
-        - KMeans Clustering
+        - [Ostu's Method](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Threshold/Ostu-s%20Method)
+        - [KMeans Clustering](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Threshold/KMeans%20Clustering)
     - Object Detection
         - Line Detection
-            - Hough transform
+            - [Hough transform](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Object%20Detection/Hough%20Transform)
         - Edge Detection
-            - Cany Edge Detection
+            - [Cany Edge Detection](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Object%20Detection/Canny%20Edge%20Detector)
 
 - Vectorization
-    - Contour tracking
+    - [Contour tracking](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Vectorization)
 
 - Image Compression
-    - Stacked Autoencoder
+    - [Stacked Autoencoder](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Autoencoder%20Image%20Compression)
 
 
