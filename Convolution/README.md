@@ -22,11 +22,8 @@ After sliding the filter over all the locations, we will find out that, what weâ
 
 Let's say we've a following $3x3$ filter, convolving on a $5x5$ matri and according to the equation we should get a $3x3$ matrix, technically called **activation map** or **feature map**.
 
-let's take a look visuallly, 
 ![conv_gif](https://user-images.githubusercontent.com/17668390/44360222-05b04a80-a4dc-11e8-8c57-48b7d2c96fd2.gif)
 
 Moreover, we practically use more filters instead of one. Then our output volume would be `28 x 28 x n` (where n is the number of **activation map**). By using more filters, we are able to preserve the spatial dimensions better. 
 
 However, For the pixels on the border of image matrix, some elements of the kernel might stands out of the image matrix and therefore does not have any corresponding element from the image matrix. In this case, we can eliminate the convolution operation for these position which end up an output matrix smaller than the input or we can apply **padding** to the input matrix 
-
-Now, I do realize that some of these topics are quite complex and could be made in whole posts by themselves. In an effort to remain concise yet retain comprehensiveness, I will provide links to resources where the topic is explained in more detail.
