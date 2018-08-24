@@ -1,5 +1,5 @@
 
-## [Image Data Analysis Using Python - Part 1](https://www.linkedin.com/pulse/basic-image-data-analysis-using-numpy-opencv-part-1-mohammed-innat/?published=t)
+## [Image Data Analysis Using Python - Part 1](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-1/)
 
 Computer store images as a mosaic of tiny squares. This is like the ancient art form of tile mosaic, or the melting bead kits kids play with today. Now, if these square tiles are too big, it’s then hard to make smooth edges and curves. The more and smaller tiles we use, the smoother or as we say less pixelated, image will be. These sometimes gets referred to as resolution of the images.
 
@@ -28,7 +28,7 @@ Combination of these three color will posses tends to the highest value among th
 
 ---
 
-## Image Data Analysis Using Python - Part 2
+## [Image Data Analysis Using Python - Part 2](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-2/)
 
 Following contents are the reflection of my completed academic image processing course in previous term. So, I am not planning on putting anything into production sphere. Instead the aim of this article is to try and realize the fundamentals of a few basic image processing techniques. For this reason, I am going to stick to using `SciKit-Image` - `numpy` mainly to preform most of the manipulations, although I will use other libraries now and then rather than using most wanted tools like `OpenCV`.
 
