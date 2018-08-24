@@ -1,10 +1,8 @@
 
-## mage Data Analysis Using Python - Part 2
 
-[Part 1](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/)
+[Read](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-2/#4-bullet) on blog in more details.
 
 # Convolution <a class="anchor" id="4-bullet"></a>
-
 
 We've discussed briefly in previous [article](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/) that, when a computer sees an image, it sees an array of pixel values. Now, Depending on the resolution and size of the image, it will see a 32 x 32 x 3 array of numbers where the 3 refers to RGB values or channels. Just to drive home the point, let's say we have a color image in PNG form and its size is 480 x 480. The representative array will be 480 x 480 x 3. Each of these numbers is given a value from 0 to 255 which describes the pixel intensity at that point. 
 
