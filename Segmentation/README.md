@@ -1,5 +1,5 @@
 
-# Thresholding
+[Read](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-2/#5-bullet) on blog in more details.
 
 **Ostu's Method** <a class="anchor" id="5-bullet"></a>
 
