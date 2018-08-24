@@ -1,7 +1,9 @@
 
 ![autoen](https://user-images.githubusercontent.com/17668390/44370229-191ede00-a4fb-11e8-8b7c-ba2ff6fcfcce.png)
 
-We like to conclude with a briefly overview of Autoencoder. It's a data compression algorithm where the compression and decompression functions are 
+[Read](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-2/#10-bullet) on blog in more details.
+
+An **autoencoder** is the combination of an **encoder** function that converts the input data into a different representation and a **decoder** function that converts the new representation back into the original format. It's a data compression algorithm where the compression and decompression functions are 
 
 - Data-specific, 
 - Lossy, and 
