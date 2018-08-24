@@ -1,6 +1,6 @@
 ## Image Data Analysis Using Python - Part 2
 
-[Part 1](https://iphton.github.io/iphton.github.io/Up-&-Running-of-Image-Data-Analysis-Using-Numpy-&-OpenCV-Part-1/)
+[Read](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-2/#A-bullet) on blog in more details.
 
 ## Intensity Transformation
 
