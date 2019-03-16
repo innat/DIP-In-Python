@@ -18,6 +18,7 @@
 **Table of Contents : Part 2**
 
 - [Intensity Transformation](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Basic%20Intensity%20Transformation)
+
         - Image Negative
         - Log Transformation
         - Gamma Correction
@@ -26,20 +27,18 @@
     - Convolving Procedure 
     - Implementation and Use Cases
 
-- Segmentation
+- [Segmentation](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation)
     - Thresholding
-        - [Ostu's Method](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Threshold/Ostu-s%20Method)
-        - [KMeans Clustering](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Threshold/KMeans%20Clustering)
+        - Ostu's Method
+        - KMeans Clustering
     - Object Detection
         - Line Detection
-            - [Hough transform](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Object%20Detection/Hough%20Transform)
         - Edge Detection
-            - [Cany Edge Detection](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation/Object%20Detection/Canny%20Edge%20Detector)
 
-- Vectorization
-    - [Contour tracking](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Vectorization)
+- [Vectorization](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Vectorization)
+    - Contour tracking
 
-- Image Compression
-    - [Stacked Autoencoder](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Autoencoder%20Image%20Compression)
+- [Image Compression](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Autoencoder%20Image%20Compression)
+    - Stacked Autoencoder
 
 
