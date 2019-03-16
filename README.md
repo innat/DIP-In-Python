@@ -18,27 +18,9 @@
 **Table of Contents : Part 2**
 
 - [Intensity Transformation](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Basic%20Intensity%20Transformation)
-
-        - Image Negative
-        - Log Transformation
-        - Gamma Correction
-
 - [Convolution](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Convolution)
-    - Convolving Procedure 
-    - Implementation and Use Cases
-
 - [Segmentation](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Segmentation)
-    - Thresholding
-        - Ostu's Method
-        - KMeans Clustering
-    - Object Detection
-        - Line Detection
-        - Edge Detection
-
 - [Vectorization](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Vectorization)
-    - Contour tracking
-
 - [Image Compression](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Autoencoder%20Image%20Compression)
-    - Stacked Autoencoder
 
 
