@@ -24,3 +24,7 @@
 - [Image Compression](https://github.com/iphton/Image-Data-Analysis-Using-Pythons/tree/gh-pages/Autoencoder%20Image%20Compression)
 
 
+---
+
+<!-- 
+[![Twitter Follow](https://img.shields.io/twitter/follow/innat_2k14.svg?style=social&label=Follow)](https://twitter.com/innat_2k14) -->
