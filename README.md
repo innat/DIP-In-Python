@@ -1,4 +1,10 @@
 
+<!--
+![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/CapsGNN.svg?style=plastic) 
+![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/CapsGNN.svg?color=blue&style=plastic) 
+![License](https://img.shields.io/github/license/benedekrozemberczki/CapsGNN.svg?color=blue&style=plastic)
+-->
+
 ### [Image Data Analysis Using Python - Part 1](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-1/)
 
 
