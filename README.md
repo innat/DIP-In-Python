@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/benedekrozemberczki/CapsGNN.svg?color=blue&style=plastic)
 -->
 
-### [Image Data Analysis Using Python - Part 1](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-1/)
+### [Image Data Analysis Using Python - Part 1](https://innat.github.io/innat.github.io/Image-Processing-in-Python-Part-1/)
 
 
 **Table of Contents : Part 1**
@@ -19,7 +19,7 @@
 
 ---
 
-### [Image Data Analysis Using Python - Part 2](https://iphton.github.io/iphton.github.io/Image-Processing-in-Python-Part-2/)
+### [Image Data Analysis Using Python - Part 2](https://innat.github.io/innat.github.io/Image-Processing-in-Python-Part-2/)
 
 **Table of Contents : Part 2**
 
